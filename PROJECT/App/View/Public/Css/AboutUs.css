@@ -1,0 +1,135 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+}
+.body_about{
+    background-image: url(../Resources/bodybackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    margin: 10px 10px 10px 10px;
+}
+
+.column__1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+}
+.column__2{
+    
+    column-width: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+}
+ div.infemp
+{
+   
+    color:black;
+    text-align: center;
+}
+.infemp{
+    animation: animacion-colores 5s infinite;
+  }
+  
+  @keyframes animacion-colores {
+    0% { color: rgba(255, 0, 0, 0.418); }
+    25% { color: rgba(0, 0, 255, 0.527); }
+    50% { color: rgba(0, 128, 0, 0.575); }
+    75% { color: rgba(90, 90, 3, 0.452); }
+    100% { color: rgba(128, 0, 128, 0.336); }
+  }
+  .main-header__input{
+    display: none;
+  }
+div.Descripcion 
+{   
+    text-align:justify;
+    line-height: 160%; 
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    }
+}
+.desc
+{  
+    text-align: center;
+} 
+.mision 
+{
+    text-align:justify;
+    
+    
+    line-height: 130%;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    }
+}
+.mis 
+{
+    text-align: center;
+}
+div.vision 
+{
+    text-align:justify;
+   
+    line-height: 130%;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    }
+}  
+.vis 
+{
+    text-align: center;
+}
+div.objetivo 
+{
+    text-align:justify;
+    
+ 
+    line-height: 130%;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    }
+}
+.obj
+{
+    text-align: center;
+}
+
+div.metas
+{
+    text-align:justify;
+    
+    line-height: 130%;
+    transition: all 0.5s ease;
+    &:hover{
+        transform: scale(1.1); 
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    }
+}
+.met
+{
+    text-align: center;
+} 
+@media screen and (max-width:1280px) { 
+
+    .container{
+        columns: 1;
+    }
+}

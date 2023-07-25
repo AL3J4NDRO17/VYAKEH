@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+div.politicasyreglas
+{
+    background-image: url(../Resources/contact_view\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    color:white;
+    text-align: center;
+    
+    background-repeat:no-repeat ;
+    background-size: contain;
+    background-position-x: center center;
+    background-attachment: fixed;
+}
+div.politicas
+{
+    text-align:center;
+}
+div.listpol
+{
+    text-align:justify;
+    padding-inline: 100px;
+    line-height: 150%;
+}
+div.reg
+{
+    text-align:center;
+}
+div.listreg
+{
+    text-align:justify;
+    padding-inline: 100px;
+    line-height: 150%;
+}
+.main-header__input{
+    display: none;
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Estilo.css">
+   
+    <script src="java.js" async></script>
+    <title>Elixir  </title>
+</head>
+
+<header class="main-header">
+    <div class="container container--flex">
+        <div class="main-header__container">
+        <!-- Titulo --><h1 class="__title">ELIXIR</h1>
+            
+            <nav class="main-nav"  >
+                <ul class="menu">
+                    
+                    <li class="menu__item"><a href="../Sobre_empresa/Abaut.html" class="menu__link">Nosotros</a></li>
+                    <li class="menu__item"><a href="../Sobre_empresa/Politicas.html" class="menu__link">Tienda</a></li>
+                    <li class="menu__item"><a href="../Sobre_empresa/Contacto.html" class="menu__link">Contacto</a></li>
+           
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="main-header__container">
+           <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>   
+            <a href="../Inicio/index.html" class="main-header__btn">Inicio<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></a>
+            
+           
+        </div>
+    </div>
+</header>
+<body>
+ 
+    
+    
+    
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Repelente</span>
+                <img src="../IMagen/1_repelente.jpg" alt="" class="img-item">
+                <span class="precio-item">$100</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Esencia 30</span>
+                <img src="../IMagen/2_repelente .jpg" alt="" class="img-item">
+                <span class="precio-item">$40</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Esencia 3 </span>
+                <img src="../IMagen/Esencia_Ogareño.jpg" alt="" class="img-item">
+                <span class="precio-item">$799</span>
+                <button class="boton-item">Agregar al Carrito</button>
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">3 Esencias</span>
+                <img src="../IMagen/3_esencias.jpg" alt="" class="img-item">
+                <span class="precio-item">$ 180</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item"> 4 Esencia</span>
+                <img src="" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+                
+            </div>
+            <div class="item">
+                <span class="titulo-item">5 Esencia</span>
+                <img src="../IMagen/Paquete_2.jpg" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">6 Esencia</span>
+                <img src="../IMagen/Paquete_2.jpg" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+          
+        </div>
+       <!-- Carrito de Compras -->
+       <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items"> <!-- dentro de de este contenedor se encontrara la imagen del producto que llamaremos -->
+           
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                    $120.000,00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+    </div>
+    </section>
+</body>
+<script>//Variable que inicializaremos para que mantenga el estado visible del carrito
+    var carritoVisible = false;
+    
+    //Esperamos que todos los elementos de la página carguen para ejecutar el script y así no existan errores a la hora de realizar la agregación al carrito
+    if (document.readyState == 'loading') {
+        document.addEventListener('DOMContentLoaded', ready)
+    } else {
+        ready();
+    }
+    
+    function ready() {
+        // Agregamos funcionalidad al botón "main-header__btn" para abrir o cerrar el carrito
+        var botonCarrito = document.getElementsByClassName('main-header__btn')[0];
+        botonCarrito.addEventListener('click', toggleCarritoVisible);
+    
+        // Agregamos funcionalidad a los botones eliminar del carrito
+        // Creamos un for para eliminar aquellos elementos llamados de los contenedores
+        var botonesEliminarItem = document.getElementsByClassName('btn-eliminar');
+        for (var i = 0; i < botonesEliminarItem.length; i++) {
+            var button = botonesEliminarItem[i];
+            button.addEventListener('click', eliminarItemCarrito);
+        }
+    
+        // Agrego funcionalidad al botón sumar cantidad
+        var botonesSumarCantidad = document.getElementsByClassName('sumar-cantidad');
+        for (var i = 0; i < botonesSumarCantidad.length; i++) {
+            var button = botonesSumarCantidad[i];
+            button.addEventListener('click', sumarCantidad);
+        }
+    
+        // Agrego funcionalidad al botón restar cantidad
+        var botonesRestarCantidad = document.getElementsByClassName('restar-cantidad');
+        for (var i = 0; i < botonesRestarCantidad.length; i++) {
+            var button = botonesRestarCantidad[i];
+            button.addEventListener('click', restarCantidad);
+        }
+    
+        // Agregamos funcionalidad al botón "Agregar al carrito"
+        var botonesAgregarAlCarrito = document.getElementsByClassName('boton-item');
+        for (var i = 0; i < botonesAgregarAlCarrito.length; i++) {
+            var button = botonesAgregarAlCarrito[i];
+            button.addEventListener('click', agregarAlCarritoClicked);
+        }
+    
+        // Agregamos funcionalidad al botón "Comprar"
+        document.getElementsByClassName('btn-pagar')[0].addEventListener('click', pagarClicked);
+    }
+    
+    // Eliminamos todos los elementos del carrito y lo ocultamos
+    function pagarClicked() {
+        alert("Gracias por la compra");
+        // Eliminamos todos los elementos del carrito
+        var carritoItems = document.getElementsByClassName('carrito-items')[0];
+        while (carritoItems.hasChildNodes()) {
+            carritoItems.removeChild(carritoItems.firstChild);
+        }
+        actualizarTotalCarrito();
+        ocultarCarrito();
+    }
+    
+    // Función que controla el botón clickeado de "Agregar al carrito"
+    function agregarAlCarritoClicked(event) {
+        var button = event.target;
+        var item = button.parentElement;
+        var titulo = item.getElementsByClassName('titulo-item')[0].innerText;
+        var precio = item.getElementsByClassName('precio-item')[0].innerText;
+        var imagenSrc = item.getElementsByClassName('img-item')[0].src;
+        console.log(imagenSrc);
+    
+        agregarItemAlCarrito(titulo, precio, imagenSrc);
+    
+        hacerVisibleCarrito();
+    }
+    
+    // Función que hace visible el carrito
+    function hacerVisibleCarrito() {
+        carritoVisible = true;
+        var carrito = document.getElementsByClassName('carrito')[0];
+        carrito.style.marginRight = '0';
+        carrito.style.opacity = '1';
+    
+        var items = document.getElementsByClassName('contenedor-items')[0];
+        items.style.width = '60%';
+    }
+    
+    // Función que agrega un item al carrito
+    // A item me refiero a los contenedores de mis productos
+    function agregarItemAlCarrito(titulo, precio, imagenSrc) {
+        var item = document.createElement('div');
+        item.classList.add('item');
+        var itemsCarrito = document.getElementsByClassName('carrito-items')[0];
+    
+        // Controlamos que el item que intenta ingresar no se encuentre en el carrito
+        var nombresItemsCarrito = itemsCarrito.getElementsByClassName('carrito-item-titulo');
+        for (var i = 0; i < nombresItemsCarrito.length; i++) {
+            if (nombresItemsCarrito[i].innerText == titulo) {
+                alert("El item ya se encuentra en el carrito");
+                return;
+            }
+        }
+        // Creamos dentro de la variable carrito un contenedor (div) que contendrá una imagen llamada
+        // el título y el precio del producto
+        var itemCarritoContenido = `
+            <div class="carrito-item">
+                <img src="${imagenSrc}" width="80px" alt="">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">${titulo}</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">${precio}</span>
+                </div>
+                <button class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </div>
+        `;
+        item.innerHTML = itemCarritoContenido;
+        itemsCarrito.append(item);
+    
+        // Agregamos la funcionalidad eliminar al nuevo item
+        item.getElementsByClassName('btn-eliminar')[0].addEventListener('click', eliminarItemCarrito);
+    
+        // Agregamos la funcionalidad restar cantidad del nuevo item
+        var botonRestarCantidad = item.getElementsByClassName('restar-cantidad')[0];
+        botonRestarCantidad.addEventListener('click', restarCantidad);
+    
+        // Agregamos la funcionalidad sumar cantidad del nuevo item
+        var botonSumarCantidad = item.getElementsByClassName('sumar-cantidad')[0];
+        botonSumarCantidad.addEventListener('click', sumarCantidad);
+    
+        // Actualizamos el total llamando a actualizar total
+        actualizarTotalCarrito();
+    }
+    
+    // Aumentamos en uno la cantidad del elemento seleccionado
+    function sumarCantidad(event) {
+        var buttonClicked = event.target;
+        var selector = buttonClicked.parentElement;
+        console.log(selector.getElementsByClassName('carrito-item-cantidad')[0].value);
+        var cantidadActual = selector.getElementsByClassName('carrito-item-cantidad')[0].value;
+        cantidadActual++;
+        selector.getElementsByClassName('carrito-item-cantidad')[0].value = cantidadActual;
+        actualizarTotalCarrito();
+    }
+    
+    // Restamos en uno la cantidad del elemento seleccionado
+    function restarCantidad(event) {
+        var buttonClicked = event.target;
+        var selector = buttonClicked.parentElement;
+        console.log(selector.getElementsByClassName('carrito-item-cantidad')[0].value);
+        var cantidadActual = selector.getElementsByClassName('carrito-item-cantidad')[0].value;
+        cantidadActual--;
+        if (cantidadActual >= 1) {
+            selector.getElementsByClassName('carrito-item-cantidad')[0].value = cantidadActual;
+            actualizarTotalCarrito();
+        }
+    }
+    
+    // Eliminamos el item seleccionado del carrito
+    function eliminarItemCarrito(event) {
+        var buttonClicked = event.target;
+        buttonClicked.parentElement.parentElement.remove();
+        // Actualizamos el total del carrito
+        actualizarTotalCarrito();
+    
+        // La siguiente función controla si hay elementos en el carrito
+        // Si no hay, ocultamos el carrito
+        ocultarCarrito();
+    }
+    
+    // Función que controla si hay elementos en el carrito. Si no hay, oculta el carrito.
+    function ocultarCarrito() {
+        var carritoItems = document.getElementsByClassName('carrito-items')[0];
+        if (carritoItems.childElementCount == 0) {
+            var carrito = document.getElementsByClassName('carrito')[0];
+            carrito.style.marginRight = '-100%';
+            carrito.style.opacity = '0';
+            carritoVisible = false;
+    
+            var items = document.getElementsByClassName('contenedor-items')[0];
+            items.style.width = '100%';
+        }
+    }
+    
+    // Actualizamos el total del carrito
+    function actualizarTotalCarrito() {
+        // Seleccionamos el contenedor carrito
+        var carritoContenedor = document.getElementsByClassName('carrito')[0];
+        var carritoItems = carritoContenedor.getElementsByClassName('carrito-item');
+        var total = 0;
+        // Recorremos cada elemento del carrito para actualizar el total
+        for (var i = 0; i < carritoItems.length; i++) {
+            var item = carritoItems[i];
+            var precioElemento = item.getElementsByClassName('carrito-item-precio')[0];
+            // Quitamos el símbolo peso y el punto de milesimos.
+            var precio = parseFloat(precioElemento.innerText.replace('$', ''));
+            var cantidadItem = item.getElementsByClassName('carrito-item-cantidad')[0];
+            console.log(precio);
+            var cantidad = cantidadItem.value;
+            total += precio * cantidad;
+        }
+        total = Math.round(total * 100) / 100;
+    
+        document.getElementsByClassName('carrito-precio-total')[0].innerText = '$' + total.toLocaleString("es") + ",00";
+    }
+    
+    // Función para abrir o cerrar el carrito
+    function toggleCarritoVisible() {
+        var carrito = document.getElementsByClassName('carrito')[0];
+        if (carritoVisible) {
+            carrito.style.marginRight = '-100%';
+            carrito.style.opacity = '0';
+            carritoVisible = false;
+        } else {
+            carrito.style.marginRight = '0';
+            carrito.style.opacity = '1';
+            carritoVisible = true;
+        }
+    }</script>
+</html>

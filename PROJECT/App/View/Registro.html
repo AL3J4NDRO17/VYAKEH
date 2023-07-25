@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="App/View/Public/Css/ReStyle">
+    
+</head>
+<header>
+
+</header>
+<body>
+       <h1>Registro</h1>
+     <form action="php/required.php" method="post" name="" id="login" autocomplete="off">
+        </div id="formu">
+        <fieldset>
+            <legend>Registrese</legend>
+
+            <label for="">Nombre </label><br>
+            <input type="text" name="nombre" placeholder="Ingrese sus Nombre"id="a"  minlength="3" required pattern="[a-zA-Z ]+"> <br>
+
+            <label for="">Apellido Paterno </label><br>
+            <input type="text" name="ap" placeholder="Ingrese su Apellido Paterno" id="a"  minlength="3"  required pattern="[a-zA-Z ]+"> <br>
+
+            <label for="">Apellido Materno </label><br>
+            <input type="text" name="am" placeholder="Ingrese su Apellido Materno "id="a"  minlength="5" required pattern="[a-zA-Z ]+"> <br>
+
+            <label for="">Telefono</label><br>
+            <input type="text" name="tele" placeholder="Ingrese su Numero Telefonico" id="f" minlength="3" maxlength="10" required pattern="[0-9]{10}"> <br>
+
+            <label for="Usuario">Usuario</label><br>
+            <input type="text" name="usu" placeholder="Ingrese su Usuario" id="a" required pattern="[A-Za-z0-9]{10,10}+" > <br>
+
+            
+
+            <label for="">Sexo</label>
+            <select name="SEXO" required name="sex" d id="">
+            <option value="" ></option>
+            <option name="H" value="H">Masculino</option>
+            <option name="F" value="F">Femenino</option>
+            </select><br>
+            
+            <label for="Fecha">Fecha de Nacimiento</label>
+            <input type="date"  name="date" required placeholder="" > <br>
+            
+            <label for="RFC">RFC</label>
+            <input type="rfc" name="rfc" placeholder="Ingrese su RFC" required pattern="^(?=.*[A-Z])[A-Z]{3,3}$"> <br> 
+
+            <label for="Correo">Correo Electronico</label><br>
+            <input type="text" name="correo" placeholder="Ingrese su Correo Electronico" id="b"  minlength="5" required pattern="(?=.*[@])(?=.*[\.])[a-zA-Z0-9_@\.]+">  <br>
+
+            <label for="">Contraseña</label><br>
+            <input type="" name="contra1" placeholder="Ingrese su Contraseña minimo un Caracter, Mayuscula, Minuscula, Simbolo" id="c" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"> <br>
+
+            <label for="">Confirme su Contraseña</label><br>
+            <input type="" name="contra2" placeholder="Confirme su Contraseña" id="d" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$" > <br>
+
+       
+           <center>
+            <BR></BR>
+              <input type="submit" placeholder="Enviar" value="Enviar" id="sub"></button>
+          </center>
+        </form>
+        <a href="Principal.html">
+          <button  type="button" value="Regresar" value="">Regresar</button>
+          </a>
+</body>
+</html>

@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+.body__content {
+  z-index: 9999;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -30%;
+}
+
+.main-header__txt {
+  display: none;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+input {
+  background: transparent;
+  border: 0 solid;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin: 20px;
+  transition: 250ms background ease-in;
+  
+  &:focus {
+    background: rgba(255, 253, 253, 0.829);
+    color: black;
+    transition: 250ms background ease-in;
+  }
+  
+  &::placeholder{
+    text-decoration: underline;
+  }
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+}
+
+.fieldset__container {
+  box-shadow: 5px 5px 5px 5px;
+  
+  columns: 2;
+
+}
+
+.register__title {
+  text-align: center;
+}
+
+.tip__container {
+  position: relative;
+  background-image: url(../Resources/fondosignup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  filter: contrast(1.1);
+  width: 24%;
+  font-style: oblique;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.tip__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.397); /* Color de fondo oscurecido */
+}
+
+.tip__title {
+  color: rgb(255, 255, 255);
+  filter: brightness(0.9);
+  border-radius: 20%;
+  font-size: 1cm;
+}
+
+.icon-register {
+  margin-left: 45%;
+  width: 10%;
+  height: 10%;
+}
+
+.btn-submit {
+  border-radius: 15%;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  display: block;
+  margin: 1rem auto;
+  min-width: 1px;
+  padding: 0.25rem;
+  transition: 250ms background ease-in;
+  
+  &:hover,
+  &:focus {
+    background: white;
+    color: green;
+    transition: 250ms background ease-in;
+  }
+}
+
+[class*="underlay"] {
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.underlay-black {
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: grayscale(30%) hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: grayscale(30%) hue-rotate(360deg);
+  }
+}
+
+.link__register {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+
+.link__container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para tablet */
+
+@media screen and (max-width: 768px) {
+  .fieldset__container {
+    border-radius: 0;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    columns: 1;
+   
+  }
+  .tip__container {
+    display: none;
+  }
+}
